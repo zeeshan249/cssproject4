@@ -1,0 +1,119 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins";
+ }
+ 
+ body{
+  
+ 
+   background-position: center;
+   background-size:cover;
+   height:100vh;
+  
+ }
+ /* ------------------------------ */
+ /* ---------- NAVBAR ------------ */
+ /* ------------------------------ */
+ 
+ .container{
+   width: 100%;
+ }
+ .list-item{
+   text-decoration: none;
+   color:black;
+   font-size: 25px;
+   list-style-type:none;
+   padding: 0px;
+   font-size: 20px;
+   margin-left: 60px;
+
+ }
+ .navbar-container {
+   position: relative;
+   display: flex;
+   justify-content: start;
+   flex-direction: row;
+   font-size: 25px;
+ }
+ .navbar-container .grow-list .list{
+   position: absolute;
+   top:60px;
+   left:220px;
+   display: flex;
+    flex-direction: row;
+   font-size: 25px; 
+   justify-content: start;
+ }
+ .brand-logo{
+   position: absolute;
+   left: 60px;
+   top:30px;
+ }
+ .button-group{
+   color:#ffffff;
+   position: absolute;
+   right:50px;
+   top:40px;
+   padding:10px 40px 10px 40px;
+   font-size: large;
+   background-color: #3944F7;
+   border:   2px  #3944F7;
+   border-radius: 20px;
+ }
+ .nav-button{
+   background-color: #3944F7;
+   border:   2px  #3944F7;
+   color:#ffffff;
+  
+ }
+ .navbar-container img{
+   position: absolute;
+   top:40px;
+   left:80px;
+ }
+ .banner-container {
+  position: relative;
+ }
+ .banner-container img{
+   position: absolute;
+ top:130px;
+ right: 0px;
+ }
+ .banner-container .heading-text{
+
+    position: relative;
+   
+    color:#1923d4;
+    
+    line-height: 70px;
+    font-size: 70px;
+    width:70vh;
+    top:220px;
+    left:40px;
+ }
+ .heading-text span{
+   color:#5960da;
+ }
+ .banner-container .description{
+   position: absolute;
+   left:30px;
+   top:470px;
+   text-align: center;
+   word-spacing: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   width: 390px;
+   color:#758283;
+   text-indent: 14px;
+ }
+ .banner-container .nav-button {
+   position: absolute;
+   left:100px;
+   top:580px;
+   padding: 20px 80px 20px 80px;
+   font-size: 20px;
+   border-radius: 20px;
+ }
